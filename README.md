@@ -7,6 +7,7 @@ A data set is created in which the target variable `Y` is explained by two infor
 ![data](data.png)
 Format: ![Alt Text](url)
 
+Oversampling from the minority class can lead to a decreased RMSE in that class.
 
 ![boxplot](boxplot.png)
 Format: ![Alt Text](url)
