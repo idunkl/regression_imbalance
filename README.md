@@ -4,7 +4,7 @@ Resampling from an imbalanced data set is a well known procedure to improve the 
 
 A data set is created in which the target variable `Y` is explained by two informative and one uninformative predictor. The population exists of two subgroups with different relationships between response and predictors.
 
-![data](boxplot.png)
+![data](data.png)
 Format: ![Alt Text](url)
 
 
