@@ -2,7 +2,7 @@
 
 Resampling from an imbalanced data set is a well known procedure to improve the accuracy of the minority class in a data classification application. This script shows, how resampling from a mixed population can alter the performance of a regression model.
 
-A data set is created in which the target variable `Y` is explained by two informative (`X1`, `X2`) and one uninformative predictor (`X3`). The population exists of two subgroups with different relationships between response and predictors. Two random forest models are used to predict `Y`. The model using `Original data' uses all observations once, while the `Resampling' model forces a minority class frequency of 0.3 by repeated sampling of the minority class and undersampling of the majority class, while the total number of samples remains the same.
+A data set is created in which the target variable `Y` is explained by two informative (`X1`, `X2`) and one uninformative predictor (`X3`). The population exists of two subgroups with different relationships between response and predictors. Two random forest models are used to predict `Y`. The model using 'Original data' uses all observations once, while the `Resampling' model forces a minority class frequency of 0.3 by repeated sampling of the minority class and undersampling of the majority class, while the total number of samples remains the same.
 
 ![data](data.png)
 Format: ![Alt Text](url)
